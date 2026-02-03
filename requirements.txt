@@ -1,0 +1,11 @@
+# OpenClaw Memory - Phase 2 Dependencies
+
+# Local embedding generation (recommended)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# OpenAI embeddings (optional, requires API key)
+# openai>=1.0.0
+
+# Core dependencies
+numpy>=1.24.0

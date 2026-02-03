@@ -54,13 +54,24 @@ python3 scripts/memory-consolidate.py --dry-run
 
 ## Features
 
+### Phase 1: Auto-Consolidation ✅
 - ✅ **Auto-consolidation** - Extract significant events from daily notes
 - ✅ **Context monitoring** - Alert when context window fills
 - ✅ **Threshold-based flush** - 50% → 70% → 85% → Emergency protocols
 - ✅ **Cron integration** - Set-and-forget automation
-- 🚧 **Semantic search** (Phase 2) - SQLite-vec or ChromaDB
-- 🚧 **Progressive disclosure** (Phase 2) - Index → Timeline → Details
-- 🚧 **Web UI** (Phase 3) - Inspect memory state visually
+
+### Phase 2: Semantic Search 🟡 IN PROGRESS
+- ✅ **Database layer** - SQLite with embeddings storage
+- ✅ **Embedding generation** - Local (sentence-transformers) + OpenAI support
+- ✅ **Progressive disclosure** - Index → Timeline → Details pattern
+- ✅ **Indexing pipeline** - Process daily notes automatically
+- 🔧 **Testing** - Waiting on dependencies (sentence-transformers)
+
+### Phase 3: Advanced Features 🔮
+- 🚧 **Web UI** - Inspect memory state visually
+- 🚧 **AI-compressed summaries** - Use Claude to compress old memories
+- 🚧 **MCP tools** - OpenClaw skill integration
+- 🚧 **Memory versioning** - Snapshots and rollback
 
 ## How It Works
 
